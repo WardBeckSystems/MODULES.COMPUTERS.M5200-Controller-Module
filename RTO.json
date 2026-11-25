@@ -1,0 +1,50 @@
+{
+ "code": "M5200",
+ "connector": "RTO-144",
+ "type": "Controller Module",
+ "series": null,
+ "contacts": "19 contacts",
+ "verified": null,
+ "derived": true,
+ "variant_of": "M5200A",
+ "pins": [
+  {
+   "pin": "18",
+   "signal": "DISCRETE DATA INPUTS DATA PORT 7600H PROVIDES",
+   "kind": "in",
+   "pair": null,
+   "polarity": null,
+   "confidence": "variant",
+   "read_from": "prose",
+   "file": "Modules/INPUT-PRE-AMPS/M5200A/MANUALS/1985 - M5200A - 002.pdf",
+   "page": 35
+  },
+  {
+   "pin": "19",
+   "signal": "DISCRETE DATA INPUTS DATA PORT 7600H PROVIDES",
+   "kind": "in",
+   "pair": null,
+   "polarity": null,
+   "confidence": "variant",
+   "read_from": "prose",
+   "file": "Modules/INPUT-PRE-AMPS/M5200A/MANUALS/1985 - M5200A - 002.pdf",
+   "page": 35
+  },
+  {
+   "pin": "D",
+   "signal": "POWER TO THE CONTROLLER",
+   "kind": "power",
+   "pair": null,
+   "polarity": null,
+   "confidence": "variant",
+   "read_from": "prose",
+   "file": "Modules/INPUT-PRE-AMPS/M5200A/MANUALS/1985 - M5200A - 002.pdf",
+   "page": 6
+  }
+ ],
+ "straps": [],
+ "power": [],
+ "sources": [
+  "Modules/INPUT-PRE-AMPS/M5200A/MANUALS/1985 - M5200A - 002.pdf"
+ ]
+}
