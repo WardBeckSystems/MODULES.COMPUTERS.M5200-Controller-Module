@@ -11,6 +11,19 @@ Wiki page: [M5200](../../../../PAGES/M5200.md)
 - **Size:** 257,029 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout, size B (assumed) 305 × 432 mm, 1240 × 1753 px traced (0.246 mm/px)
+- **Ink extent:** 0–282 mm across, 0–416 mm up
+- **Outlines:** line 158 rings, 2,572 straight (6,932 mm) / 374 curved (680 mm); text 621 rings, 4,556 straight (5,993 mm) / 1,286 curved (2,151 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 7.6 @ (152.5, 316.2), r 3.6 @ (152.3, 316.0), r 3.6 @ (152.7, 125.9)
+- **Closed boxes:** 28
+- **Dots (junctions):** 4
+- **Words (OCR):** 78 in 55 lines: WAAD-BECK · systeMs LTD_ · CONNECTOR LAYOUT · M5200 CONTROLLER MODULE · NOTE · LEGEND · CONNECTORS · NC:NOT CONNECTED · J1 To J8 · IC : INTERNALLY CONNECTED · WIRED IDENTICAL · coM
+- **Title block:** (22, 402)–(121, 427) mm: WAAD-BECK · systeMs LTD_
+
+Every curve, box, word and wire group: [1985 - M5200 - CONNECTOR LAYOUT M5200 CONTROLLER MODULE (traced).json](../PINOUTS/1985%20-%20M5200%20-%20CONNECTOR%20LAYOUT%20M5200%20CONTROLLER%20MODULE%20%28traced%29.json) (the CAD file: `1985 - M5200 - CONNECTOR LAYOUT M5200 CONTROLLER MODULE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

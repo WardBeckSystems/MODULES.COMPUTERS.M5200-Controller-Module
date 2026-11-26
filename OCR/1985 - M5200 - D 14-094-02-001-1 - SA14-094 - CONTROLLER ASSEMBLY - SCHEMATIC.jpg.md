@@ -22,7 +22,7 @@ Wiki page: [M5200](../../../../PAGES/M5200.md)
 - **Dots (junctions):** 3
 - **Wiring (first pass):** 556 connected wire groups from 3,550 runs
 
-Every curve, box, word and wire group: [1985 - M5200 - D 14-094-02-001-1 - SA14-094 - CONTROLLER ASSEMBLY - SCHEMATIC (traced).json](../SCHEMATICS/1985%20-%20M5200%20-%20D%2014-094-02-001-1%20-%20SA14-094%20-%20CONTROLLER%20ASSEMBLY%20-%20SCHEMATIC%20(traced).json) (the CAD file: `1985 - M5200 - D 14-094-02-001-1 - SA14-094 - CONTROLLER ASSEMBLY - SCHEMATIC (traced).dxf`).
+Every curve, box, word and wire group: [1985 - M5200 - D 14-094-02-001-1 - SA14-094 - CONTROLLER ASSEMBLY - SCHEMATIC (traced).json](../SCHEMATICS/1985%20-%20M5200%20-%20D%2014-094-02-001-1%20-%20SA14-094%20-%20CONTROLLER%20ASSEMBLY%20-%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1985 - M5200 - D 14-094-02-001-1 - SA14-094 - CONTROLLER ASSEMBLY - SCHEMATIC (traced).dxf`).
 
 ## Full text
 

@@ -31,7 +31,7 @@ M5200A controller module layout, title block at top right reading downward.
 - **Closed boxes:** 19
 - **Dots (junctions):** 1
 
-Every curve, box, word and wire group: [19xx - 5200-04-002 - M5200A CONTROLLER MODULE MODULE LAYOUT - ISS 2 (traced).json](../MECHANICAL/19xx%20-%205200-04-002%20-%20M5200A%20CONTROLLER%20MODULE%20MODULE%20LAYOUT%20-%20ISS%202%20(traced).json) (the CAD file: `19xx - 5200-04-002 - M5200A CONTROLLER MODULE MODULE LAYOUT - ISS 2 (traced).dxf`).
+Every curve, box, word and wire group: [19xx - 5200-04-002 - M5200A CONTROLLER MODULE MODULE LAYOUT - ISS 2 (traced).json](../MECHANICAL/19xx%20-%205200-04-002%20-%20M5200A%20CONTROLLER%20MODULE%20MODULE%20LAYOUT%20-%20ISS%202%20%28traced%29.json) (the CAD file: `19xx - 5200-04-002 - M5200A CONTROLLER MODULE MODULE LAYOUT - ISS 2 (traced).dxf`).
 
 ## Full text
 

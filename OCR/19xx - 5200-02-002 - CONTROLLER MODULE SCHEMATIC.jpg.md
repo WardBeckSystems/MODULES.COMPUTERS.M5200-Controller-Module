@@ -34,7 +34,7 @@ M5200A controller module schematic, cropped at right.
 - **Title block:** (352, 34)–(432, 51) mm: WBS · WARD-BECK SYSTEN
 - **Wiring (first pass):** 103 connected wire groups from 1,171 runs; labelled ends: 587 mm → MI, 23243, 324478; 336 mm → 82R; 292 mm → Vp, MI; 135 mm → 82R, 324478, 23243; 52 mm → 324478
 
-Every curve, box, word and wire group: [19xx - 5200-02-002 - CONTROLLER MODULE SCHEMATIC (traced).json](../SCHEMATICS/19xx%20-%205200-02-002%20-%20CONTROLLER%20MODULE%20SCHEMATIC%20(traced).json) (the CAD file: `19xx - 5200-02-002 - CONTROLLER MODULE SCHEMATIC (traced).dxf`).
+Every curve, box, word and wire group: [19xx - 5200-02-002 - CONTROLLER MODULE SCHEMATIC (traced).json](../SCHEMATICS/19xx%20-%205200-02-002%20-%20CONTROLLER%20MODULE%20SCHEMATIC%20%28traced%29.json) (the CAD file: `19xx - 5200-02-002 - CONTROLLER MODULE SCHEMATIC (traced).dxf`).
 
 ## Full text
 

@@ -21,7 +21,7 @@ Wiki page: [M5200](../../../../PAGES/M5200.md)
 - **Closed boxes:** 3
 - **Wiring (first pass):** 11 connected wire groups from 158 runs
 
-Every curve, box, word and wire group: [1985 - M5200 - B 14-096-02-001 - SA14-096 - DISPLAY ASSEMBLY - SCHEMATIC (2) (traced).json](../SCHEMATICS/1985%20-%20M5200%20-%20B%2014-096-02-001%20-%20SA14-096%20-%20DISPLAY%20ASSEMBLY%20-%20SCHEMATIC%20(2)%20(traced).json) (the CAD file: `1985 - M5200 - B 14-096-02-001 - SA14-096 - DISPLAY ASSEMBLY - SCHEMATIC (2) (traced).dxf`).
+Every curve, box, word and wire group: [1985 - M5200 - B 14-096-02-001 - SA14-096 - DISPLAY ASSEMBLY - SCHEMATIC (2) (traced).json](../SCHEMATICS/1985%20-%20M5200%20-%20B%2014-096-02-001%20-%20SA14-096%20-%20DISPLAY%20ASSEMBLY%20-%20SCHEMATIC%20%282%29%20%28traced%29.json) (the CAD file: `1985 - M5200 - B 14-096-02-001 - SA14-096 - DISPLAY ASSEMBLY - SCHEMATIC (2) (traced).dxf`).
 
 ## Full text
 

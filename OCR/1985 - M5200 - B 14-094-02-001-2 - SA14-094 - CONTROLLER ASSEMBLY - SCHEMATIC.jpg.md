@@ -23,7 +23,7 @@ Wiki page: [M5200](../../../../PAGES/M5200.md)
 - **Title block:** (346, 28)–(432, 46) mm: WBS · WARD-BeCK SYSTEMS
 - **Wiring (first pass):** 145 connected wire groups from 2,887 runs
 
-Every curve, box, word and wire group: [1985 - M5200 - B 14-094-02-001-2 - SA14-094 - CONTROLLER ASSEMBLY - SCHEMATIC (traced).json](../SCHEMATICS/1985%20-%20M5200%20-%20B%2014-094-02-001-2%20-%20SA14-094%20-%20CONTROLLER%20ASSEMBLY%20-%20SCHEMATIC%20(traced).json) (the CAD file: `1985 - M5200 - B 14-094-02-001-2 - SA14-094 - CONTROLLER ASSEMBLY - SCHEMATIC (traced).dxf`).
+Every curve, box, word and wire group: [1985 - M5200 - B 14-094-02-001-2 - SA14-094 - CONTROLLER ASSEMBLY - SCHEMATIC (traced).json](../SCHEMATICS/1985%20-%20M5200%20-%20B%2014-094-02-001-2%20-%20SA14-094%20-%20CONTROLLER%20ASSEMBLY%20-%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1985 - M5200 - B 14-094-02-001-2 - SA14-094 - CONTROLLER ASSEMBLY - SCHEMATIC (traced).dxf`).
 
 ## Full text
 

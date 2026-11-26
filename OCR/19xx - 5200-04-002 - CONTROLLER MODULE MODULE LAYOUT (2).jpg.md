@@ -32,7 +32,7 @@ M5200A controller module layout, cropped at right.
 - **Words (OCR):** 67 in 64 lines: DATA/ADORESS · Port · 7200 · Port 7100 · Port 7000 · Pio Power · J5 Port · 7400 · Port 7300 · Port · 7700 · 07Port ` 7600
 - **Title block:** (230, 29)–(432, 47) mm: WBS · WBS · WARD-BECK SYSTEN · 452004
 
-Every curve, box, word and wire group: [19xx - 5200-04-002 - CONTROLLER MODULE MODULE LAYOUT (2) (traced).json](../MECHANICAL/19xx%20-%205200-04-002%20-%20CONTROLLER%20MODULE%20MODULE%20LAYOUT%20(2)%20(traced).json) (the CAD file: `19xx - 5200-04-002 - CONTROLLER MODULE MODULE LAYOUT (2) (traced).dxf`).
+Every curve, box, word and wire group: [19xx - 5200-04-002 - CONTROLLER MODULE MODULE LAYOUT (2) (traced).json](../MECHANICAL/19xx%20-%205200-04-002%20-%20CONTROLLER%20MODULE%20MODULE%20LAYOUT%20%282%29%20%28traced%29.json) (the CAD file: `19xx - 5200-04-002 - CONTROLLER MODULE MODULE LAYOUT (2) (traced).dxf`).
 
 ## Full text
 

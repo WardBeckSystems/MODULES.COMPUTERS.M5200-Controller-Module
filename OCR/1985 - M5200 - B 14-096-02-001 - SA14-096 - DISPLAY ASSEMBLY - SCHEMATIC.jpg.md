@@ -23,7 +23,7 @@ Wiki page: [M5200](../../../../PAGES/M5200.md)
 - **Title block:** (344, 31)–(432, 48) mm: WBS · WARD-BECK SYSTEMS
 - **Wiring (first pass):** 9 connected wire groups from 101 runs; labelled ends: 293 mm → DAUGHTERBOARD; 98 mm → DAUGHTERBOARD; 6 mm → MANUAL, RESET, Sw
 
-Every curve, box, word and wire group: [1985 - M5200 - B 14-096-02-001 - SA14-096 - DISPLAY ASSEMBLY - SCHEMATIC (traced).json](../SCHEMATICS/1985%20-%20M5200%20-%20B%2014-096-02-001%20-%20SA14-096%20-%20DISPLAY%20ASSEMBLY%20-%20SCHEMATIC%20(traced).json) (the CAD file: `1985 - M5200 - B 14-096-02-001 - SA14-096 - DISPLAY ASSEMBLY - SCHEMATIC (traced).dxf`).
+Every curve, box, word and wire group: [1985 - M5200 - B 14-096-02-001 - SA14-096 - DISPLAY ASSEMBLY - SCHEMATIC (traced).json](../SCHEMATICS/1985%20-%20M5200%20-%20B%2014-096-02-001%20-%20SA14-096%20-%20DISPLAY%20ASSEMBLY%20-%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1985 - M5200 - B 14-096-02-001 - SA14-096 - DISPLAY ASSEMBLY - SCHEMATIC (traced).dxf`).
 
 ## Full text
 

@@ -21,7 +21,7 @@ Wiki page: [M5200](../../../../PAGES/M5200.md)
 - **Closed boxes:** 178
 - **Wiring (first pass):** 240 connected wire groups from 4,962 runs
 
-Every curve, box, word and wire group: [1985 - M5200 - 14-095-02-001 - INTERFACE ASSEMBLY SCHEMATIC (traced).json](../SCHEMATICS/1985%20-%20M5200%20-%2014-095-02-001%20-%20INTERFACE%20ASSEMBLY%20SCHEMATIC%20(traced).json) (the CAD file: `1985 - M5200 - 14-095-02-001 - INTERFACE ASSEMBLY SCHEMATIC (traced).dxf`).
+Every curve, box, word and wire group: [1985 - M5200 - 14-095-02-001 - INTERFACE ASSEMBLY SCHEMATIC (traced).json](../SCHEMATICS/1985%20-%20M5200%20-%2014-095-02-001%20-%20INTERFACE%20ASSEMBLY%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1985 - M5200 - 14-095-02-001 - INTERFACE ASSEMBLY SCHEMATIC (traced).dxf`).
 
 ## Full text
 

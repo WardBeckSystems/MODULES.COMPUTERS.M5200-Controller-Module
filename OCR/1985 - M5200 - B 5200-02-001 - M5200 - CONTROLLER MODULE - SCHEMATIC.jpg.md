@@ -23,7 +23,7 @@ Wiki page: [M5200](../../../../PAGES/M5200.md)
 - **Words (OCR):** 1 in 1 lines: Wu
 - **Wiring (first pass):** 81 connected wire groups from 1,014 runs; labelled ends: 446 mm → Wu; 421 mm → Wu; 244 mm → Wu; 218 mm → Wu; 121 mm → Wu
 
-Every curve, box, word and wire group: [1985 - M5200 - B 5200-02-001 - M5200 - CONTROLLER MODULE - SCHEMATIC (traced).json](../SCHEMATICS/1985%20-%20M5200%20-%20B%205200-02-001%20-%20M5200%20-%20CONTROLLER%20MODULE%20-%20SCHEMATIC%20(traced).json) (the CAD file: `1985 - M5200 - B 5200-02-001 - M5200 - CONTROLLER MODULE - SCHEMATIC (traced).dxf`).
+Every curve, box, word and wire group: [1985 - M5200 - B 5200-02-001 - M5200 - CONTROLLER MODULE - SCHEMATIC (traced).json](../SCHEMATICS/1985%20-%20M5200%20-%20B%205200-02-001%20-%20M5200%20-%20CONTROLLER%20MODULE%20-%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1985 - M5200 - B 5200-02-001 - M5200 - CONTROLLER MODULE - SCHEMATIC (traced).dxf`).
 
 ## Full text
 
