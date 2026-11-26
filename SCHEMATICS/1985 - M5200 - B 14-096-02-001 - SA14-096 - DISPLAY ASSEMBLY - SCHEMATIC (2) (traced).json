@@ -1,0 +1,98 @@
+{
+ "drawing": "Modules/COMPUTERS/M5200/SCHEMATICS/1985 - M5200 - B 14-096-02-001 - SA14-096 - DISPLAY ASSEMBLY - SCHEMATIC (2).jpg",
+ "version": 1,
+ "trace": "_traces/61f8d39e939f18ba.svg",
+ "sheet": {
+  "number": "14-096-02-001",
+  "title": "",
+  "dtype": "02",
+  "type": "schematic",
+  "size": "B",
+  "size_assumed": true,
+  "rotate": 90,
+  "px": [2000, 1414],
+  "mm": [431.8, 305.3],
+  "mm_per_px": 0.2159
+ },
+ "units": "mm; x right, y up from the sheet's lower-left corner (as in the (traced).dxf)",
+ "bbox": [2.2, 0.4, 431.8, 288.0],
+ "outlines": {
+  "line": {"rings": 262, "straight": {"n": 2199, "mm": 5362.0}, "curved": {"n": 483, "mm": 628.9}},
+  "text": {"rings": 144, "straight": {"n": 934, "mm": 953.4}, "curved": {"n": 299, "mm": 392.4}}
+ },
+ "centre_lines": {
+  "layers": {
+   "line": {"paths": 1477, "straight": {"n": 1721, "mm": 2787.1}, "curved": {"n": 134, "mm": 143.8}},
+   "text": {"paths": 992, "straight": {"n": 1255, "mm": 713.7}, "curved": {"n": 0, "mm": 0.0}}
+  },
+  "closed_paths": 51,
+  "orientation": {"horizontal": {"n": 705, "mm": 1690.6}, "vertical": {"n": 820, "mm": 832.2}, "diagonal": {"n": 1451, "mm": 978.0}},
+  "note": "straight runs by direction (within 5°); curved = runs that fit a circle"
+ },
+ "circles": [
+  {"c": [252.9, 148.6], "r": 3.3, "kind": "circle", "span": 360, "from": ["centre line", "outline (one edge)"]},
+  {"c": [292.5, 148.9], "r": 3.3, "kind": "circle", "span": 360, "from": ["centre line", "outline (one edge)"]},
+  {"c": [364.2, 10.9], "r": 1.2, "kind": "circle", "span": 311, "from": ["centre line"]},
+  {"c": [385.9, 39.9], "r": 1.2, "kind": "arc", "span": 170, "from": ["centre line"], "start": 33},
+  {"c": [387.8, 11.6], "r": 1.2, "kind": "circle", "span": 306, "from": ["centre line"]},
+  {"c": [140.5, 193.4], "r": 1.2, "kind": "arc", "span": 208, "from": ["centre line"], "start": 341},
+  {"c": [364.3, 24.8], "r": 1.2, "kind": "arc", "span": 248, "from": ["centre line"], "start": 117},
+  {"c": [384.6, 11.6], "r": 1.1, "kind": "arc", "span": 270, "from": ["centre line"], "start": 136},
+  {"c": [99.8, 82.9], "r": 1.1, "kind": "arc", "span": 141, "from": ["centre line"], "start": 94},
+  {"c": [98.9, 203.8], "r": 1.1, "kind": "arc", "span": 141, "from": ["centre line"], "start": 94},
+  {"c": [138.9, 198.3], "r": 1.1, "kind": "arc", "span": 260, "from": ["centre line"], "start": 355},
+  {"c": [228.1, 146.7], "r": 1.0, "kind": "arc", "span": 183, "from": ["centre line"], "start": 290},
+  {"c": [266.4, 146.9], "r": 1.0, "kind": "arc", "span": 176, "from": ["centre line"], "start": 286},
+  {"c": [329.8, 105.0], "r": 1.0, "kind": "arc", "span": 261, "from": ["centre line"], "start": 95},
+  {"c": [133.3, 188.4], "r": 1.0, "kind": "arc", "span": 175, "from": ["centre line"], "start": 280},
+  {"c": [138.3, 203.3], "r": 1.0, "kind": "arc", "span": 169, "from": ["centre line"], "start": 305},
+  {"c": [227.0, 150.6], "r": 1.0, "kind": "circle", "span": 327, "from": ["centre line"]},
+  {"c": [238.4, 150.8], "r": 1.0, "kind": "arc", "span": 269, "from": ["centre line"], "start": 93},
+  {"c": [198.4, 170.1], "r": 0.9, "kind": "arc", "span": 167, "from": ["centre line"], "start": 284},
+  {"c": [232.8, 154.7], "r": 0.9, "kind": "arc", "span": 269, "from": ["centre line"], "start": 96},
+  {"c": [279.8, 147.0], "r": 0.9, "kind": "arc", "span": 191, "from": ["centre line"], "start": 296},
+  {"c": [241.2, 146.8], "r": 0.9, "kind": "arc", "span": 191, "from": ["centre line"], "start": 296},
+  {"c": [350.4, 10.3], "r": 0.9, "kind": "arc", "span": 168, "from": ["centre line"], "start": 34},
+  {"c": [350.4, 11.5], "r": 0.8, "kind": "arc", "span": 164, "from": ["centre line"], "start": 139},
+  {"c": [330.0, 109.7], "r": 0.8, "kind": "circle", "span": 360, "from": ["centre line", "outline (one edge)"]},
+  {"c": [367.5, 11.4], "r": 0.7, "kind": "arc", "span": 263, "from": ["centre line"], "start": 233},
+  {"c": [242.5, 151.1], "r": 0.7, "kind": "arc", "span": 180, "from": ["centre line"], "start": 198},
+  {"c": [121.1, 166.6], "r": 0.7, "kind": "arc", "span": 213, "from": ["centre line"], "start": 47},
+  {"c": [195.8, 176.9], "r": 0.7, "kind": "arc", "span": 178, "from": ["centre line"], "start": 188}
+ ],
+ "boxes": [
+  {"mm": [124.1, 157.8, 153.9, 226.5], "w": 29.8, "h": 68.7, "from": "ring"},
+  {"mm": [381.3, 38.4, 384.3, 40.8], "w": 3.0, "h": 2.4, "from": "ring"},
+  {"mm": [349.3, 9.1, 351.7, 12.3], "w": 2.4, "h": 3.2, "from": "ring"}
+ ],
+ "text": {"words": 0, "lines": [], "note": "no OCR words typed in (the sheet was read turned, or no words were found)"},
+ "dots": [],
+ "nets": {
+  "groups": 11,
+  "wire_runs": 158,
+  "dotted_junctions": 0,
+  "note": "first pass: horizontal / vertical centre-line runs of 0.8 mm or more, joined end to end; groups under 5 mm left out; components (diagonal or curved ink) separate groups; labels are OCR words within 5 mm of a free end; long straight lines along the frame left out",
+  "list": [
+   {"mm": 465.7, "runs": 26, "ends": 10, "bbox": [104.9, 142.7, 191.5, 226.7], "labels": []},
+   {"mm": 293.2, "runs": 5, "ends": 4, "bbox": [106.0, 103.2, 318.9, 145.5], "labels": []},
+   {"mm": 263.0, "runs": 3, "ends": 2, "bbox": [106.2, 83.1, 340.0, 105.1], "labels": []},
+   {"mm": 191.1, "runs": 5, "ends": 2, "bbox": [105.8, 123.1, 228.0, 193.0], "labels": []},
+   {"mm": 183.7, "runs": 2, "ends": 2, "bbox": [2.8, 287.6, 186.5, 288.0], "labels": []},
+   {"mm": 98.2, "runs": 3, "ends": 2, "bbox": [234.3, 152.6, 292.1, 193.4], "labels": []},
+   {"mm": 73.6, "runs": 2, "ends": 2, "bbox": [199.7, 152.4, 252.6, 173.6], "labels": []},
+   {"mm": 58.7, "runs": 2, "ends": 2, "bbox": [92.4, 162.6, 92.8, 221.3], "labels": []},
+   {"mm": 15.8, "runs": 2, "ends": 2, "bbox": [352.6, 36.3, 368.3, 36.7], "labels": []},
+   {"mm": 13.8, "runs": 1, "ends": 2, "bbox": [355.8, 42.1, 369.6, 42.3], "labels": []},
+   {"mm": 6.3, "runs": 2, "ends": 2, "bbox": [323.4, 111.4, 323.6, 118.1], "labels": []}
+  ]
+ },
+ "summary": [
+  "- **Sheet:** schematic 14-096-02-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°",
+  "- **Ink extent:** 2–432 mm across, 0–288 mm up",
+  "- **Outlines:** line 262 rings, 2,199 straight (5,362 mm) / 483 curved (629 mm); text 144 rings, 934 straight (953 mm) / 299 curved (392 mm)",
+  "- **Centre lines:** 2,469 paths (51 closed); straight 3,501 mm, curved 144 mm; horizontal 1,691 mm, vertical 832 mm, diagonal 978 mm",
+  "- **Circles and arcs:** 6 circles, 23 arcs; largest r 3.3 @ (252.9, 148.6), r 3.3 @ (292.5, 148.9), r 1.2 @ (364.2, 10.9), r 1.2 @ (387.8, 11.6)",
+  "- **Closed boxes:** 3",
+  "- **Wiring (first pass):** 11 connected wire groups from 158 runs"
+ ]
+}
