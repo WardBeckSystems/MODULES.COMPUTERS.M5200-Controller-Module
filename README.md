@@ -1,16 +1,16 @@
-# M5200 · Computers
+# M5200 Controller Module · Computers
 
 Ward-Beck Systems M5200, 1985|18. Wiki page: [M5200 on WBSps.ca](https://wardbecksystems.github.io/WBSps.ca/PAGES/M5200.html)
 
 | Folder | What is in it | Files |
 |---|---|---|
-| [SCHEMATICS/](SCHEMATICS/) | electrical drawings: schematics, functional diagrams, component layouts, wiring | 44 |
-| [MECHANICAL/](MECHANICAL/) | front panels, cover plates, metalwork, assemblies; the front panel as vectors | 12 |
-| [PINOUTS/](PINOUTS/) | the RTO-144 connector: connection sheets, connector layouts, rear views | 3 |
-| [MANUALS/](MANUALS/) | manuals, manual pages, price lists, brochures, documents | 40 |
-| [PHOTOS/](PHOTOS/) | photographs of the module | 0 |
-| [SOFTWARE/](SOFTWARE/) | program listings, firmware, the plugin | 0 |
-| [KICAD/](KICAD/) | KiCad schematics traced from the drawings, the symbol, PCB projects | 9 |
+| [SCHEMATICS/](SCHEMATICS/) | electrical drawings: schematics, functional diagrams, component layouts, wiring | 45 |
+| [MECHANICAL/](MECHANICAL/) | front panels, cover plates, metalwork, assemblies; the front panel as vectors | 16 |
+| [PINOUTS/](PINOUTS/) | the RTO-144 connector: connection sheets, connector layouts, rear views | 8 |
+| [MANUALS/](MANUALS/) | manuals, manual pages, price lists, brochures, documents | 41 |
+| [PHOTOS/](PHOTOS/) | photographs of the module | 1 |
+| [SOFTWARE/](SOFTWARE/) | program listings, firmware, the plugin | 1 |
+| [KICAD/](KICAD/) | KiCad schematics traced from the drawings, the symbol, PCB projects | 10 |
 | [OCR/](OCR/) | the note of every file: date, origin, title block, OCR text | 55 |
 
 <!-- module data: tools/module_specs.py, tools/forum_quotes.py -->
@@ -56,14 +56,6 @@ _Mechanical drawings: front panels, cover plates, metalwork and hardware (-03- d
 
 Not on Google Drive yet: `19xx - 5200-04-002 - CONTROLLER MODULE MODULE LAYOUT (2).jpg`, `19xx - 5200-04-002 - M5200A CONTROLLER MODULE MODULE LAYOUT - ISS 2.jpg`
 
-## 3-D model
-
-[`MECHANICAL/M5200.stl`](MECHANICAL/M5200.stl) (GitHub turns it in 3-D) · [view, change and generate it on WBSps.ca](https://wardbecksystems.github.io/WBSps.ca/2026/stl.html?m=M5200)
-
-- **Size:** 483 × 44 mm panel, 406 mm deep, 3.2 mm plate (TECHNICAL DATA: 19.00" wide 1.75" high 16.00" deep (483 mm 44 mm 406 mm))
-- **From the drawing:** 6 holes and cut-outs, 0 knobs (front panel: `MECHANICAL/M5200 - front panel.svg`)
-- Made by `tools/module_models.py` (→ `MECHANICAL/M5200.model.json`) and `tools/stl/make_stl.mjs` in [WBSps.ca](https://github.com/WardBeckSystems/WBSps.ca); the site makes the same STL from the same JSON.
-
 ## Schematics
 
 _Electrical drawings: schematics (-02-), functional diagrams (-01-), component layouts (-06-), wiring (-09-), PCB files (.pcb .dsn), and beside each scan its `(EXTRACTED).svg`: the vectors traced from it._
@@ -82,7 +74,7 @@ Not on Google Drive yet: `19xx - 5200-02-002 - CONTROLLER MODULE SCHEMATIC.jpg`
 _Pinouts: the RTO-144 edge connector (connection sheets, connector layouts and rear views, strapping), and the pinout / connections drawings made from them. The module root `RTO.json` lists every contact._
 
 <table>
-<tr><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKdnJmdFA4UWZGZFk/view?resourcekey=0-lIG3698CJRCQc_2Cc8VuhQ" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKdnJmdFA4UWZGZFk&resourcekey=0-lIG3698CJRCQc_2Cc8VuhQ" width="240" alt="1985 - M5200 - CONNECTOR LAYOUT M5200 CONTROLLER MODULE.jpg"></a><br><sub>1985|18 · CONNECTOR LAYOUT M5200 CONTROLLER MODULE</sub></td></tr>
+<tr><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKdnJmdFA4UWZGZFk/view?resourcekey=0-lIG3698CJRCQc_2Cc8VuhQ" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKdnJmdFA4UWZGZFk&resourcekey=0-lIG3698CJRCQc_2Cc8VuhQ" width="240" alt="1985 - M5200 - CONNECTOR LAYOUT M5200 CONTROLLER MODULE.jpg"></a><br><sub>1985|18 · CONNECTOR LAYOUT M5200 CONTROLLER MODULE · <a href="PINOUTS/1985%20-%20M5200%20-%20CONNECTOR%20LAYOUT%20M5200%20CONTROLLER%20MODULE%20(EXTRACTED).svg">vectors</a></sub></td></tr>
 </table>
 
 ## RTO-144 pinout
@@ -200,6 +192,11 @@ _KiCad: a schematic (`.kicad_sch`) traced from each electrical drawing, the modu
 - [1985 - M5200 - D 14-094-02-001-1 - SA14-094 - CONTROLLER ASSEMBLY - SCHEMATIC.kicad_sch](KICAD/1985%20-%20M5200%20-%20D%2014-094-02-001-1%20-%20SA14-094%20-%20CONTROLLER%20ASSEMBLY%20-%20SCHEMATIC.kicad_sch)
 - [19xx - 5200-02-002 - CONTROLLER MODULE SCHEMATIC.kicad_sch](KICAD/19xx%20-%205200-02-002%20-%20CONTROLLER%20MODULE%20SCHEMATIC.kicad_sch)
 - [M5200.kicad_sym](KICAD/M5200.kicad_sym)
+- [index.html](KICAD/index.html)
+
+## Software
+
+- [index.html](SOFTWARE/index.html)
 
 ---
 Archive: Anthony Peter Kuzub · [WBSps.ca](https://WBSps.ca) · [WBSps.Kuzub.com](https://WBSps.Kuzub.com)
