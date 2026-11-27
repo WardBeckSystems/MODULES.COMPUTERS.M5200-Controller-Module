@@ -1,0 +1,20 @@
+{
+ "module": "M5200",
+ "source": {
+  "file": "MANUALS/1985 - M5200 - p17.jpg",
+  "pages": [
+   1
+  ]
+ },
+ "ocr_quality": 0.97,
+ "read": "OCR of the manual's circuit description; check against the pages",
+ "sections": [
+  {
+   "heading": "SA14-094 CONTROLLER ASSEMBLY",
+   "paragraphs": [
+    "Microprocessor",
+    "The NsC800 CMos microprocessor utilizes the 280 instruction set. It is an bit processor with 16 bit addressing capability (64K) _ The lower eight address lines are multiplexed onto the bit data bus_ The clock frequency of the microprocessor is crystal controlled by mHz crystal Power Fail and Reset Comparator U11 senses drop in the volt supply voltage driving the non maskable interrupt of the microprocessor at pin 21 This arrests the execution of instructions before the power is totally lost. The output of U11 also inhibits the RAM memory (U10) at this time _ 414,415 and 416 makeup power fail control circuit. This circuit uses the passage of time to establish whether power interruption has happened or whether full power failure has occured and the ST series of console system should be shut down (all channels, subs and monitoring turned off) _ This circuitry is powered from the backup nickel cadmium battery _ On the occurance of power interruption, counter U14 is enabled at pin 11 (sw: tches to logic 0) and the oscillator U15 pins and starts the count The counter outputs labelled through are available to set the power interrupt time period_ The typical times are seconds, 16 seconds_ 30 seconds, minute, minutes and minutes. As shipped from the factory the minute jumper is in. The counter output at pin 11 of 015 sets the power fail Latch 416 (pins through 13). The Latch output drives the fail LED DSI and through 415 Pin the fourth input of data buffer u24 If the power interruption is less than the set period of time (4 minutes) then the system will be restored to its state prior to the power interruption. If it lasts longer than the set time period the system, upon recovery of power will remain in shut down state (all channels subs and monitors turned off and any control functions released) The power fail Latch (U16) is reset or cleared under software control This is achieved by the addressing output at U28 pin (address select 7BO0H)"
+   ]
+  }
+ ]
+}

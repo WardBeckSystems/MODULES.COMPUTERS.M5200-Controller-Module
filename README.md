@@ -13,6 +13,39 @@ Ward-Beck Systems M5200, 1985|18. Wiki page: [M5200 on WBSps.ca](https://wardbec
 | [KICAD/](KICAD/) | KiCad schematics traced from the drawings, the symbol, PCB projects | 9 |
 | [OCR/](OCR/) | the note of every file: date, origin, title block, OCR text | 55 |
 
+<!-- module data: tools/module_specs.py, tools/forum_quotes.py -->
+
+## Specifications
+
+From the technical data sheet: [1985 - M5200 - p6.jpg](MANUALS/1985%20-%20M5200%20-%20p6.jpg) page 1 (read by OCR; check against the page). As data: [`Specifications.json`](Specifications.json).
+
+| | |
+|---|---|
+| **Microprocessor** | NSC800 |
+| **Memory** | EPROM: NMC2732 (4K EEPROM: X2816 (2K RAM: NM2116 (2K 8) 8) 8) |
+| **Logic levels** | Standard volt HC series Levels _ Logic 1: 3.5V min 20 mA source Logic 0: 1V max 20 mA sink. Clock Frequency mHz crystal +/-.003% _ Status Indication Seven segment display. |
+| **Power requirements** | 10/12 volts dc, unregulated, 0.5 amp |
+| **Circuit protection** | 1.5 amp circuit breaker, current Limiting regulators and overvoltage protecting zener diode. |
+| **Ambient temperature** | to 60 degrees Celsius |
+| **Dimensions** | 19.00&quot; wide 1.75&quot; high 16.00&quot; deep (483 mm 44 mm 406 mm) |
+| **Weight** | 10 Ibs 0z (4.7 kg) |
+
+## Circuit description
+
+From [1985 - M5200 - p17.jpg](MANUALS/1985%20-%20M5200%20-%20p17.jpg) page 1 (read by OCR; check against the pages). As data: [`CircuitDescription.json`](CircuitDescription.json).
+
+<details><summary>Read it</summary>
+
+**SA14-094 CONTROLLER ASSEMBLY**
+
+Microprocessor
+
+The NsC800 CMos microprocessor utilizes the 280 instruction set. It is an bit processor with 16 bit addressing capability (64K) _ The lower eight address lines are multiplexed onto the bit data bus_ The clock frequency of the microprocessor is crystal controlled by mHz crystal Power Fail and Reset Comparator U11 senses drop in the volt supply voltage driving the non maskable interrupt of the microprocessor at pin 21 This arrests the execution of instructions before the power is totally lost. The output of U11 also inhibits the RAM memory (U10) at this time _ 414,415 and 416 makeup power fail control circuit. This circuit uses the passage of time to establish whether power interruption has happened or whether full power failure has occured and the ST series of console system should be shut down (all channels, subs and monitoring turned off) _ This circuitry is powered from the backup nickel cadmium battery _ On the occurance of power interruption, counter U14 is enabled at pin 11 (sw: tches to logic 0) and the oscillator U15 pins and starts the count The counter outputs labelled through are available to set the power interrupt time period_ The typical times are seconds, 16 seconds_ 30 seconds, minute, minutes and minutes. As shipped from the factory the minute jumper is in. The counter output at pin 11 of 015 sets the power fail Latch 416 (pins through 13). The Latch output drives the fail LED DSI and through 415 Pin the fourth input of data buffer u24 If the power interruption is less than the set period of time (4 minutes) then the system will be restored to its state prior to the power interruption. If it lasts longer than the set time period the system, upon recovery of power will remain in shut down state (all channels subs and monitors turned off and any control functions released) The power fail Latch (U16) is reset or cleared under software control This is achieved by the addressing output at U28 pin (address select 7BO0H)
+
+</details>
+
+<!-- /module data -->
+
 ## Mechanical
 
 _Mechanical drawings: front panels, cover plates, metalwork and hardware (-03- drawings), AutoCAD files, each with its `(EXTRACTED).svg` vectors; `<module> - front panel.svg` is the front panel as vectors._
