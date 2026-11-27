@@ -79,13 +79,84 @@ _Pinouts: the RTO-144 edge connector (connection sheets, connector layouts and r
 
 ## RTO-144 pinout
 
-19 contacts. Read from the module's own documents (no RTO-144 sheet yet). Every contact, with where it was read: [`RTO.json`](RTO.json).
+Read from 2 pinout pictures (each its own `.pinout.json` beside it). Every contact, with where it was read: [`RTO.json`](RTO.json). How a picture becomes this table: [the pinout decision tree](https://github.com/WardBeckSystems/WBSps.ca/blob/main/2026/Engineering/PINOUTS.md).
 
-| Pin | Signal | Kind | Pair | Confidence |
+| Pin | Signal | Kind | Port | Confidence |
 |---|---|---|---|---|
-| 18 | DISCRETE DATA INPUTS DATA PORT 7600H PROVIDES | in |  | variant |
-| 19 | DISCRETE DATA INPUTS DATA PORT 7600H PROVIDES | in |  | variant |
-| D | POWER TO THE CONTROLLER | power |  | variant |
+| J1-1 | COMMON | ground |  | medium |
+| J1-2 | N/C | nc |  | medium |
+| J1-3 | N/C | nc |  | medium |
+| J1-4 | N/C | nc |  | medium |
+| J1-5 | SELECT STROBE 3 | control_out | STROBE 3 | medium |
+| J1-6 | SELECT STROBE 1 | control_out | STROBE 1 | medium |
+| J1-7 | NALE / STROBE 5 | control_out | NALE/5 | medium |
+| J1-8 | NRD | control_out | NRD | medium |
+| J1-9 | COMMON | ground |  | medium |
+| J1-10 | DATA B D6 | bus | DATA B D6 | medium |
+| J1-11 | DATA B D4 | bus | DATA B D4 | medium |
+| J1-12 | DATA B D2 | bus | DATA B D2 | medium |
+| J1-13 | DATA B D0 | bus | DATA B D0 | medium |
+| J1-14 | COMMON | ground |  | medium |
+| J1-15 | DATA A D6 | bus | DATA A D6 | medium |
+| J1-16 | DATA A D4 | bus | DATA A D4 | medium |
+| J1-17 | DATA A D2 | bus | DATA A D2 | medium |
+| J1-18 | DATA A D0 | bus | DATA A D0 | medium |
+| J1-19 | COMMON | ground |  | medium |
+| J1-20 | COMMON | ground |  | medium |
+| J1-21 | N/C | nc |  | medium |
+| J1-22 | N/C | nc |  | medium |
+| J1-23 | SELECT STROBE 4 | control_out | STROBE 4 | medium |
+| J1-24 | SELECT STROBE 2 | control_out | STROBE 2 | medium |
+| J1-25 | SELECT STROBE 0 | control_out | STROBE 0 | medium |
+| J1-26 | NWR | control_out | NWR | medium |
+| J1-27 | COMMON | ground |  | medium |
+| J1-28 | DATA B D7 | bus | DATA B D7 | medium |
+| J1-29 | DATA B D5 | bus | DATA B D5 | medium |
+| J1-30 | DATA B D3 | bus | DATA B D3 | medium |
+| J1-31 | DATA B D1 | bus | DATA B D1 | medium |
+| J1-32 | COMMON | ground |  | medium |
+| J1-33 | DATA A D7 | bus | DATA A D7 | medium |
+| J1-34 | DATA A D5 | bus | DATA A D5 | medium |
+| J1-35 | DATA A D3 | bus | DATA A D3 | medium |
+| J1-36 | DATA A D1 | bus | DATA A D1 | medium |
+| J1-37 | COMMON | ground |  | medium |
+| P8-1 | COMMON | ground |  | high |
+| P8-2 | N/C | nc |  | high |
+| P8-3 | N/C | nc |  | high |
+| P8-4 | N/C | nc |  | high |
+| P8-5 | NSTB3 | bus | DATA BUS | high |
+| P8-6 | NSTB1 | bus | DATA BUS | high |
+| P8-7 | NCTL | bus | DATA BUS | high |
+| P8-8 | NRD | bus | DATA BUS | high |
+| P8-9 | COMMON | ground |  | high |
+| P8-10 | N/C | nc |  | high |
+| P8-11 | N/C | nc |  | high |
+| P8-12 | N/C | nc |  | high |
+| P8-13 | N/C | nc |  | high |
+| P8-14 | COMMON | ground |  | high |
+| P8-15 | AD6 | bus | DATA BUS | high |
+| P8-16 | AD4 | bus | DATA BUS | high |
+| P8-17 | AD2 | bus | DATA BUS | high |
+| P8-18 | AD0 | bus | DATA BUS | high |
+| P8-19 | COMMON | ground |  | high |
+| P8-20 | COMMON | ground |  | high |
+| P8-21 | N/C | nc |  | high |
+| P8-22 | N/C | nc |  | high |
+| P8-23 | NSTB4 | bus | DATA BUS | high |
+| P8-24 | NSTB2 | bus | DATA BUS | high |
+| P8-25 | NSTB0 | bus | DATA BUS | high |
+| P8-26 | NWR | bus | DATA BUS | high |
+| P8-27 | COMMON | ground |  | high |
+| P8-28 | N/C | nc |  | high |
+| P8-29 | N/C | nc |  | high |
+| P8-30 | N/C | nc |  | high |
+| P8-31 | N/C | nc |  | high |
+| P8-32 | COMMON | ground |  | high |
+| P8-33 | AD7 | bus | DATA BUS | high |
+| P8-34 | AD5 | bus | DATA BUS | high |
+| P8-35 | AD3 | bus | DATA BUS | high |
+| P8-36 | AD1 | bus | DATA BUS | high |
+| P8-37 | COMMON | ground |  | high |
 
 ## Manuals and documents
 

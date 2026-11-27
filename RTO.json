@@ -1,50 +1,1415 @@
 {
  "code": "M5200",
  "connector": "RTO-144",
- "type": "Controller Module",
+ "type": null,
  "series": null,
- "contacts": "19 contacts",
- "verified": null,
- "derived": true,
- "variant_of": "M5200A",
- "pins": [
+ "connectors": [
   {
-   "pin": "18",
-   "signal": "DISCRETE DATA INPUTS DATA PORT 7600H PROVIDES",
-   "kind": "in",
-   "pair": null,
-   "polarity": null,
-   "confidence": "variant",
-   "read_from": "prose",
-   "file": "Modules/INPUT-PRE-AMPS/M5200A/MANUALS/1985 - M5200A - 002.pdf",
-   "page": 35
+   "name": "J1",
+   "kind": "D-sub",
+   "contacts": 37,
+   "rows": "1-19 opposite 20-37",
+   "view": null,
+   "part": "37-pin D (DC-37 shell drawn)"
   },
   {
-   "pin": "19",
-   "signal": "DISCRETE DATA INPUTS DATA PORT 7600H PROVIDES",
-   "kind": "in",
-   "pair": null,
-   "polarity": null,
-   "confidence": "variant",
-   "read_from": "prose",
-   "file": "Modules/INPUT-PRE-AMPS/M5200A/MANUALS/1985 - M5200A - 002.pdf",
-   "page": 35
-  },
-  {
-   "pin": "D",
-   "signal": "POWER TO THE CONTROLLER",
-   "kind": "power",
-   "pair": null,
-   "polarity": null,
-   "confidence": "variant",
-   "read_from": "prose",
-   "file": "Modules/INPUT-PRE-AMPS/M5200A/MANUALS/1985 - M5200A - 002.pdf",
-   "page": 6
+   "name": "P8",
+   "kind": "D-sub 37",
+   "contacts": 37,
+   "rows": "1-19 opposite 20-37",
+   "view": null,
+   "part": null
   }
  ],
+ "verified": null,
+ "built_from": {
+  "pictures": [
+   "M5200/PINOUTS/1985 - M5200 - CONNECTOR LAYOUT M5200 CONTROLLER MODULE.pinout.json",
+   "M5201/PINOUTS/19xx - M5201 - Connector Layout M5201 Machine Control Module P8.pinout.json"
+  ],
+  "sheet": null,
+  "sheet_agrees": null
+ },
+ "pins": [
+  {
+   "connector": "J1",
+   "pin": "1",
+   "ref": "J1-1",
+   "also": null,
+   "same_row": null,
+   "signal": "COMMON",
+   "kind": "ground",
+   "port": null,
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M5200/PINOUTS/1985 - M5200 - CONNECTOR LAYOUT M5200 CONTROLLER MODULE.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "J1",
+   "pin": "2",
+   "ref": "J1-2",
+   "also": null,
+   "same_row": null,
+   "signal": "N/C",
+   "kind": "nc",
+   "port": null,
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M5200/PINOUTS/1985 - M5200 - CONNECTOR LAYOUT M5200 CONTROLLER MODULE.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "J1",
+   "pin": "3",
+   "ref": "J1-3",
+   "also": null,
+   "same_row": null,
+   "signal": "N/C",
+   "kind": "nc",
+   "port": null,
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M5200/PINOUTS/1985 - M5200 - CONNECTOR LAYOUT M5200 CONTROLLER MODULE.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "J1",
+   "pin": "4",
+   "ref": "J1-4",
+   "also": null,
+   "same_row": null,
+   "signal": "N/C",
+   "kind": "nc",
+   "port": null,
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M5200/PINOUTS/1985 - M5200 - CONNECTOR LAYOUT M5200 CONTROLLER MODULE.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "J1",
+   "pin": "5",
+   "ref": "J1-5",
+   "also": null,
+   "same_row": null,
+   "signal": "SELECT STROBE 3",
+   "kind": "control_out",
+   "port": "STROBE 3",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M5200/PINOUTS/1985 - M5200 - CONNECTOR LAYOUT M5200 CONTROLLER MODULE.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "J1",
+   "pin": "6",
+   "ref": "J1-6",
+   "also": null,
+   "same_row": null,
+   "signal": "SELECT STROBE 1",
+   "kind": "control_out",
+   "port": "STROBE 1",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M5200/PINOUTS/1985 - M5200 - CONNECTOR LAYOUT M5200 CONTROLLER MODULE.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "J1",
+   "pin": "7",
+   "ref": "J1-7",
+   "also": null,
+   "same_row": null,
+   "signal": "NALE / STROBE 5",
+   "kind": "control_out",
+   "port": "NALE/5",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M5200/PINOUTS/1985 - M5200 - CONNECTOR LAYOUT M5200 CONTROLLER MODULE.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "J1",
+   "pin": "8",
+   "ref": "J1-8",
+   "also": null,
+   "same_row": null,
+   "signal": "NRD",
+   "kind": "control_out",
+   "port": "NRD",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M5200/PINOUTS/1985 - M5200 - CONNECTOR LAYOUT M5200 CONTROLLER MODULE.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "J1",
+   "pin": "9",
+   "ref": "J1-9",
+   "also": null,
+   "same_row": null,
+   "signal": "COMMON",
+   "kind": "ground",
+   "port": null,
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M5200/PINOUTS/1985 - M5200 - CONNECTOR LAYOUT M5200 CONTROLLER MODULE.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "J1",
+   "pin": "10",
+   "ref": "J1-10",
+   "also": null,
+   "same_row": null,
+   "signal": "DATA B D6",
+   "kind": "bus",
+   "port": "DATA B D6",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M5200/PINOUTS/1985 - M5200 - CONNECTOR LAYOUT M5200 CONTROLLER MODULE.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "J1",
+   "pin": "11",
+   "ref": "J1-11",
+   "also": null,
+   "same_row": null,
+   "signal": "DATA B D4",
+   "kind": "bus",
+   "port": "DATA B D4",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M5200/PINOUTS/1985 - M5200 - CONNECTOR LAYOUT M5200 CONTROLLER MODULE.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "J1",
+   "pin": "12",
+   "ref": "J1-12",
+   "also": null,
+   "same_row": null,
+   "signal": "DATA B D2",
+   "kind": "bus",
+   "port": "DATA B D2",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M5200/PINOUTS/1985 - M5200 - CONNECTOR LAYOUT M5200 CONTROLLER MODULE.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "J1",
+   "pin": "13",
+   "ref": "J1-13",
+   "also": null,
+   "same_row": null,
+   "signal": "DATA B D0",
+   "kind": "bus",
+   "port": "DATA B D0",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M5200/PINOUTS/1985 - M5200 - CONNECTOR LAYOUT M5200 CONTROLLER MODULE.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "J1",
+   "pin": "14",
+   "ref": "J1-14",
+   "also": null,
+   "same_row": null,
+   "signal": "COMMON",
+   "kind": "ground",
+   "port": null,
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M5200/PINOUTS/1985 - M5200 - CONNECTOR LAYOUT M5200 CONTROLLER MODULE.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "J1",
+   "pin": "15",
+   "ref": "J1-15",
+   "also": null,
+   "same_row": null,
+   "signal": "DATA A D6",
+   "kind": "bus",
+   "port": "DATA A D6",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M5200/PINOUTS/1985 - M5200 - CONNECTOR LAYOUT M5200 CONTROLLER MODULE.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "J1",
+   "pin": "16",
+   "ref": "J1-16",
+   "also": null,
+   "same_row": null,
+   "signal": "DATA A D4",
+   "kind": "bus",
+   "port": "DATA A D4",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M5200/PINOUTS/1985 - M5200 - CONNECTOR LAYOUT M5200 CONTROLLER MODULE.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "J1",
+   "pin": "17",
+   "ref": "J1-17",
+   "also": null,
+   "same_row": null,
+   "signal": "DATA A D2",
+   "kind": "bus",
+   "port": "DATA A D2",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M5200/PINOUTS/1985 - M5200 - CONNECTOR LAYOUT M5200 CONTROLLER MODULE.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "J1",
+   "pin": "18",
+   "ref": "J1-18",
+   "also": null,
+   "same_row": null,
+   "signal": "DATA A D0",
+   "kind": "bus",
+   "port": "DATA A D0",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M5200/PINOUTS/1985 - M5200 - CONNECTOR LAYOUT M5200 CONTROLLER MODULE.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "J1",
+   "pin": "19",
+   "ref": "J1-19",
+   "also": null,
+   "same_row": null,
+   "signal": "COMMON",
+   "kind": "ground",
+   "port": null,
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M5200/PINOUTS/1985 - M5200 - CONNECTOR LAYOUT M5200 CONTROLLER MODULE.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "J1",
+   "pin": "20",
+   "ref": "J1-20",
+   "also": null,
+   "same_row": null,
+   "signal": "COMMON",
+   "kind": "ground",
+   "port": null,
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M5200/PINOUTS/1985 - M5200 - CONNECTOR LAYOUT M5200 CONTROLLER MODULE.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "J1",
+   "pin": "21",
+   "ref": "J1-21",
+   "also": null,
+   "same_row": null,
+   "signal": "N/C",
+   "kind": "nc",
+   "port": null,
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M5200/PINOUTS/1985 - M5200 - CONNECTOR LAYOUT M5200 CONTROLLER MODULE.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "J1",
+   "pin": "22",
+   "ref": "J1-22",
+   "also": null,
+   "same_row": null,
+   "signal": "N/C",
+   "kind": "nc",
+   "port": null,
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M5200/PINOUTS/1985 - M5200 - CONNECTOR LAYOUT M5200 CONTROLLER MODULE.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "J1",
+   "pin": "23",
+   "ref": "J1-23",
+   "also": null,
+   "same_row": null,
+   "signal": "SELECT STROBE 4",
+   "kind": "control_out",
+   "port": "STROBE 4",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M5200/PINOUTS/1985 - M5200 - CONNECTOR LAYOUT M5200 CONTROLLER MODULE.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "J1",
+   "pin": "24",
+   "ref": "J1-24",
+   "also": null,
+   "same_row": null,
+   "signal": "SELECT STROBE 2",
+   "kind": "control_out",
+   "port": "STROBE 2",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M5200/PINOUTS/1985 - M5200 - CONNECTOR LAYOUT M5200 CONTROLLER MODULE.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "J1",
+   "pin": "25",
+   "ref": "J1-25",
+   "also": null,
+   "same_row": null,
+   "signal": "SELECT STROBE 0",
+   "kind": "control_out",
+   "port": "STROBE 0",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M5200/PINOUTS/1985 - M5200 - CONNECTOR LAYOUT M5200 CONTROLLER MODULE.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "J1",
+   "pin": "26",
+   "ref": "J1-26",
+   "also": null,
+   "same_row": null,
+   "signal": "NWR",
+   "kind": "control_out",
+   "port": "NWR",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M5200/PINOUTS/1985 - M5200 - CONNECTOR LAYOUT M5200 CONTROLLER MODULE.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "J1",
+   "pin": "27",
+   "ref": "J1-27",
+   "also": null,
+   "same_row": null,
+   "signal": "COMMON",
+   "kind": "ground",
+   "port": null,
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M5200/PINOUTS/1985 - M5200 - CONNECTOR LAYOUT M5200 CONTROLLER MODULE.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "J1",
+   "pin": "28",
+   "ref": "J1-28",
+   "also": null,
+   "same_row": null,
+   "signal": "DATA B D7",
+   "kind": "bus",
+   "port": "DATA B D7",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M5200/PINOUTS/1985 - M5200 - CONNECTOR LAYOUT M5200 CONTROLLER MODULE.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "J1",
+   "pin": "29",
+   "ref": "J1-29",
+   "also": null,
+   "same_row": null,
+   "signal": "DATA B D5",
+   "kind": "bus",
+   "port": "DATA B D5",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M5200/PINOUTS/1985 - M5200 - CONNECTOR LAYOUT M5200 CONTROLLER MODULE.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "J1",
+   "pin": "30",
+   "ref": "J1-30",
+   "also": null,
+   "same_row": null,
+   "signal": "DATA B D3",
+   "kind": "bus",
+   "port": "DATA B D3",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M5200/PINOUTS/1985 - M5200 - CONNECTOR LAYOUT M5200 CONTROLLER MODULE.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "J1",
+   "pin": "31",
+   "ref": "J1-31",
+   "also": null,
+   "same_row": null,
+   "signal": "DATA B D1",
+   "kind": "bus",
+   "port": "DATA B D1",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M5200/PINOUTS/1985 - M5200 - CONNECTOR LAYOUT M5200 CONTROLLER MODULE.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "J1",
+   "pin": "32",
+   "ref": "J1-32",
+   "also": null,
+   "same_row": null,
+   "signal": "COMMON",
+   "kind": "ground",
+   "port": null,
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M5200/PINOUTS/1985 - M5200 - CONNECTOR LAYOUT M5200 CONTROLLER MODULE.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "J1",
+   "pin": "33",
+   "ref": "J1-33",
+   "also": null,
+   "same_row": null,
+   "signal": "DATA A D7",
+   "kind": "bus",
+   "port": "DATA A D7",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M5200/PINOUTS/1985 - M5200 - CONNECTOR LAYOUT M5200 CONTROLLER MODULE.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "J1",
+   "pin": "34",
+   "ref": "J1-34",
+   "also": null,
+   "same_row": null,
+   "signal": "DATA A D5",
+   "kind": "bus",
+   "port": "DATA A D5",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M5200/PINOUTS/1985 - M5200 - CONNECTOR LAYOUT M5200 CONTROLLER MODULE.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "J1",
+   "pin": "35",
+   "ref": "J1-35",
+   "also": null,
+   "same_row": null,
+   "signal": "DATA A D3",
+   "kind": "bus",
+   "port": "DATA A D3",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M5200/PINOUTS/1985 - M5200 - CONNECTOR LAYOUT M5200 CONTROLLER MODULE.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "J1",
+   "pin": "36",
+   "ref": "J1-36",
+   "also": null,
+   "same_row": null,
+   "signal": "DATA A D1",
+   "kind": "bus",
+   "port": "DATA A D1",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M5200/PINOUTS/1985 - M5200 - CONNECTOR LAYOUT M5200 CONTROLLER MODULE.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "J1",
+   "pin": "37",
+   "ref": "J1-37",
+   "also": null,
+   "same_row": null,
+   "signal": "COMMON",
+   "kind": "ground",
+   "port": null,
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M5200/PINOUTS/1985 - M5200 - CONNECTOR LAYOUT M5200 CONTROLLER MODULE.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P8",
+   "pin": "1",
+   "ref": "P8-1",
+   "also": null,
+   "same_row": null,
+   "signal": "COMMON",
+   "kind": "ground",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M5201/PINOUTS/19xx - M5201 - Connector Layout M5201 Machine Control Module P8.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P8",
+   "pin": "2",
+   "ref": "P8-2",
+   "also": null,
+   "same_row": null,
+   "signal": "N/C",
+   "kind": "nc",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M5201/PINOUTS/19xx - M5201 - Connector Layout M5201 Machine Control Module P8.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P8",
+   "pin": "3",
+   "ref": "P8-3",
+   "also": null,
+   "same_row": null,
+   "signal": "N/C",
+   "kind": "nc",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M5201/PINOUTS/19xx - M5201 - Connector Layout M5201 Machine Control Module P8.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P8",
+   "pin": "4",
+   "ref": "P8-4",
+   "also": null,
+   "same_row": null,
+   "signal": "N/C",
+   "kind": "nc",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M5201/PINOUTS/19xx - M5201 - Connector Layout M5201 Machine Control Module P8.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P8",
+   "pin": "5",
+   "ref": "P8-5",
+   "also": null,
+   "same_row": null,
+   "signal": "NSTB3",
+   "kind": "bus",
+   "port": "DATA BUS",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M5201/PINOUTS/19xx - M5201 - Connector Layout M5201 Machine Control Module P8.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P8",
+   "pin": "6",
+   "ref": "P8-6",
+   "also": null,
+   "same_row": null,
+   "signal": "NSTB1",
+   "kind": "bus",
+   "port": "DATA BUS",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M5201/PINOUTS/19xx - M5201 - Connector Layout M5201 Machine Control Module P8.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P8",
+   "pin": "7",
+   "ref": "P8-7",
+   "also": null,
+   "same_row": null,
+   "signal": "NCTL",
+   "kind": "bus",
+   "port": "DATA BUS",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M5201/PINOUTS/19xx - M5201 - Connector Layout M5201 Machine Control Module P8.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P8",
+   "pin": "8",
+   "ref": "P8-8",
+   "also": null,
+   "same_row": null,
+   "signal": "NRD",
+   "kind": "bus",
+   "port": "DATA BUS",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M5201/PINOUTS/19xx - M5201 - Connector Layout M5201 Machine Control Module P8.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P8",
+   "pin": "9",
+   "ref": "P8-9",
+   "also": null,
+   "same_row": null,
+   "signal": "COMMON",
+   "kind": "ground",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M5201/PINOUTS/19xx - M5201 - Connector Layout M5201 Machine Control Module P8.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P8",
+   "pin": "10",
+   "ref": "P8-10",
+   "also": null,
+   "same_row": null,
+   "signal": "N/C",
+   "kind": "nc",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M5201/PINOUTS/19xx - M5201 - Connector Layout M5201 Machine Control Module P8.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P8",
+   "pin": "11",
+   "ref": "P8-11",
+   "also": null,
+   "same_row": null,
+   "signal": "N/C",
+   "kind": "nc",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M5201/PINOUTS/19xx - M5201 - Connector Layout M5201 Machine Control Module P8.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P8",
+   "pin": "12",
+   "ref": "P8-12",
+   "also": null,
+   "same_row": null,
+   "signal": "N/C",
+   "kind": "nc",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M5201/PINOUTS/19xx - M5201 - Connector Layout M5201 Machine Control Module P8.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P8",
+   "pin": "13",
+   "ref": "P8-13",
+   "also": null,
+   "same_row": null,
+   "signal": "N/C",
+   "kind": "nc",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M5201/PINOUTS/19xx - M5201 - Connector Layout M5201 Machine Control Module P8.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P8",
+   "pin": "14",
+   "ref": "P8-14",
+   "also": null,
+   "same_row": null,
+   "signal": "COMMON",
+   "kind": "ground",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M5201/PINOUTS/19xx - M5201 - Connector Layout M5201 Machine Control Module P8.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P8",
+   "pin": "15",
+   "ref": "P8-15",
+   "also": null,
+   "same_row": null,
+   "signal": "AD6",
+   "kind": "bus",
+   "port": "DATA BUS",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M5201/PINOUTS/19xx - M5201 - Connector Layout M5201 Machine Control Module P8.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P8",
+   "pin": "16",
+   "ref": "P8-16",
+   "also": null,
+   "same_row": null,
+   "signal": "AD4",
+   "kind": "bus",
+   "port": "DATA BUS",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M5201/PINOUTS/19xx - M5201 - Connector Layout M5201 Machine Control Module P8.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P8",
+   "pin": "17",
+   "ref": "P8-17",
+   "also": null,
+   "same_row": null,
+   "signal": "AD2",
+   "kind": "bus",
+   "port": "DATA BUS",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M5201/PINOUTS/19xx - M5201 - Connector Layout M5201 Machine Control Module P8.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P8",
+   "pin": "18",
+   "ref": "P8-18",
+   "also": null,
+   "same_row": null,
+   "signal": "AD0",
+   "kind": "bus",
+   "port": "DATA BUS",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M5201/PINOUTS/19xx - M5201 - Connector Layout M5201 Machine Control Module P8.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P8",
+   "pin": "19",
+   "ref": "P8-19",
+   "also": null,
+   "same_row": null,
+   "signal": "COMMON",
+   "kind": "ground",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M5201/PINOUTS/19xx - M5201 - Connector Layout M5201 Machine Control Module P8.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P8",
+   "pin": "20",
+   "ref": "P8-20",
+   "also": null,
+   "same_row": null,
+   "signal": "COMMON",
+   "kind": "ground",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M5201/PINOUTS/19xx - M5201 - Connector Layout M5201 Machine Control Module P8.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P8",
+   "pin": "21",
+   "ref": "P8-21",
+   "also": null,
+   "same_row": null,
+   "signal": "N/C",
+   "kind": "nc",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M5201/PINOUTS/19xx - M5201 - Connector Layout M5201 Machine Control Module P8.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P8",
+   "pin": "22",
+   "ref": "P8-22",
+   "also": null,
+   "same_row": null,
+   "signal": "N/C",
+   "kind": "nc",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M5201/PINOUTS/19xx - M5201 - Connector Layout M5201 Machine Control Module P8.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P8",
+   "pin": "23",
+   "ref": "P8-23",
+   "also": null,
+   "same_row": null,
+   "signal": "NSTB4",
+   "kind": "bus",
+   "port": "DATA BUS",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M5201/PINOUTS/19xx - M5201 - Connector Layout M5201 Machine Control Module P8.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P8",
+   "pin": "24",
+   "ref": "P8-24",
+   "also": null,
+   "same_row": null,
+   "signal": "NSTB2",
+   "kind": "bus",
+   "port": "DATA BUS",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M5201/PINOUTS/19xx - M5201 - Connector Layout M5201 Machine Control Module P8.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P8",
+   "pin": "25",
+   "ref": "P8-25",
+   "also": null,
+   "same_row": null,
+   "signal": "NSTB0",
+   "kind": "bus",
+   "port": "DATA BUS",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M5201/PINOUTS/19xx - M5201 - Connector Layout M5201 Machine Control Module P8.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P8",
+   "pin": "26",
+   "ref": "P8-26",
+   "also": null,
+   "same_row": null,
+   "signal": "NWR",
+   "kind": "bus",
+   "port": "DATA BUS",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M5201/PINOUTS/19xx - M5201 - Connector Layout M5201 Machine Control Module P8.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P8",
+   "pin": "27",
+   "ref": "P8-27",
+   "also": null,
+   "same_row": null,
+   "signal": "COMMON",
+   "kind": "ground",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M5201/PINOUTS/19xx - M5201 - Connector Layout M5201 Machine Control Module P8.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P8",
+   "pin": "28",
+   "ref": "P8-28",
+   "also": null,
+   "same_row": null,
+   "signal": "N/C",
+   "kind": "nc",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M5201/PINOUTS/19xx - M5201 - Connector Layout M5201 Machine Control Module P8.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P8",
+   "pin": "29",
+   "ref": "P8-29",
+   "also": null,
+   "same_row": null,
+   "signal": "N/C",
+   "kind": "nc",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M5201/PINOUTS/19xx - M5201 - Connector Layout M5201 Machine Control Module P8.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P8",
+   "pin": "30",
+   "ref": "P8-30",
+   "also": null,
+   "same_row": null,
+   "signal": "N/C",
+   "kind": "nc",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M5201/PINOUTS/19xx - M5201 - Connector Layout M5201 Machine Control Module P8.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P8",
+   "pin": "31",
+   "ref": "P8-31",
+   "also": null,
+   "same_row": null,
+   "signal": "N/C",
+   "kind": "nc",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M5201/PINOUTS/19xx - M5201 - Connector Layout M5201 Machine Control Module P8.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P8",
+   "pin": "32",
+   "ref": "P8-32",
+   "also": null,
+   "same_row": null,
+   "signal": "COMMON",
+   "kind": "ground",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M5201/PINOUTS/19xx - M5201 - Connector Layout M5201 Machine Control Module P8.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P8",
+   "pin": "33",
+   "ref": "P8-33",
+   "also": null,
+   "same_row": null,
+   "signal": "AD7",
+   "kind": "bus",
+   "port": "DATA BUS",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M5201/PINOUTS/19xx - M5201 - Connector Layout M5201 Machine Control Module P8.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P8",
+   "pin": "34",
+   "ref": "P8-34",
+   "also": null,
+   "same_row": null,
+   "signal": "AD5",
+   "kind": "bus",
+   "port": "DATA BUS",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M5201/PINOUTS/19xx - M5201 - Connector Layout M5201 Machine Control Module P8.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P8",
+   "pin": "35",
+   "ref": "P8-35",
+   "also": null,
+   "same_row": null,
+   "signal": "AD3",
+   "kind": "bus",
+   "port": "DATA BUS",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M5201/PINOUTS/19xx - M5201 - Connector Layout M5201 Machine Control Module P8.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P8",
+   "pin": "36",
+   "ref": "P8-36",
+   "also": null,
+   "same_row": null,
+   "signal": "AD1",
+   "kind": "bus",
+   "port": "DATA BUS",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M5201/PINOUTS/19xx - M5201 - Connector Layout M5201 Machine Control Module P8.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P8",
+   "pin": "37",
+   "ref": "P8-37",
+   "also": null,
+   "same_row": null,
+   "signal": "COMMON",
+   "kind": "ground",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M5201/PINOUTS/19xx - M5201 - Connector Layout M5201 Machine Control Module P8.pinout.json"
+   ],
+   "sheet": null
+  }
+ ],
+ "ports": [
+  {
+   "name": "DATA BUS",
+   "dir": "bus",
+   "pins": {
+    "NSTB3": "P8-5",
+    "NSTB1": "P8-6",
+    "NCTL": "P8-7",
+    "NRD": "P8-8",
+    "AD6": "P8-15",
+    "AD4": "P8-16",
+    "AD2": "P8-17",
+    "AD0": "P8-18",
+    "NSTB4": "P8-23",
+    "NSTB2": "P8-24",
+    "NSTB0": "P8-25",
+    "NWR": "P8-26",
+    "AD7": "P8-33",
+    "AD5": "P8-34",
+    "AD3": "P8-35",
+    "AD1": "P8-36"
+   }
+  },
+  {
+   "name": "STROBE 3",
+   "dir": "control_out",
+   "pins": {
+    "unmarked": "J1-5"
+   }
+  },
+  {
+   "name": "STROBE 1",
+   "dir": "control_out",
+   "pins": {
+    "unmarked": "J1-6"
+   }
+  },
+  {
+   "name": "NALE/5",
+   "dir": "control_out",
+   "pins": {
+    "unmarked": "J1-7"
+   }
+  },
+  {
+   "name": "NRD",
+   "dir": "control_out",
+   "pins": {
+    "unmarked": "J1-8"
+   }
+  },
+  {
+   "name": "DATA B D6",
+   "dir": "bidir",
+   "pins": {
+    "unmarked": "J1-10"
+   }
+  },
+  {
+   "name": "DATA B D4",
+   "dir": "bidir",
+   "pins": {
+    "unmarked": "J1-11"
+   }
+  },
+  {
+   "name": "DATA B D2",
+   "dir": "bidir",
+   "pins": {
+    "unmarked": "J1-12"
+   }
+  },
+  {
+   "name": "DATA B D0",
+   "dir": "bidir",
+   "pins": {
+    "unmarked": "J1-13"
+   }
+  },
+  {
+   "name": "DATA A D6",
+   "dir": "bidir",
+   "pins": {
+    "unmarked": "J1-15"
+   }
+  },
+  {
+   "name": "DATA A D4",
+   "dir": "bidir",
+   "pins": {
+    "unmarked": "J1-16"
+   }
+  },
+  {
+   "name": "DATA A D2",
+   "dir": "bidir",
+   "pins": {
+    "unmarked": "J1-17"
+   }
+  },
+  {
+   "name": "DATA A D0",
+   "dir": "bidir",
+   "pins": {
+    "unmarked": "J1-18"
+   }
+  },
+  {
+   "name": "STROBE 4",
+   "dir": "control_out",
+   "pins": {
+    "unmarked": "J1-23"
+   }
+  },
+  {
+   "name": "STROBE 2",
+   "dir": "control_out",
+   "pins": {
+    "unmarked": "J1-24"
+   }
+  },
+  {
+   "name": "STROBE 0",
+   "dir": "control_out",
+   "pins": {
+    "unmarked": "J1-25"
+   }
+  },
+  {
+   "name": "NWR",
+   "dir": "control_out",
+   "pins": {
+    "unmarked": "J1-26"
+   }
+  },
+  {
+   "name": "DATA B D7",
+   "dir": "bidir",
+   "pins": {
+    "unmarked": "J1-28"
+   }
+  },
+  {
+   "name": "DATA B D5",
+   "dir": "bidir",
+   "pins": {
+    "unmarked": "J1-29"
+   }
+  },
+  {
+   "name": "DATA B D3",
+   "dir": "bidir",
+   "pins": {
+    "unmarked": "J1-30"
+   }
+  },
+  {
+   "name": "DATA B D1",
+   "dir": "bidir",
+   "pins": {
+    "unmarked": "J1-31"
+   }
+  },
+  {
+   "name": "DATA A D7",
+   "dir": "bidir",
+   "pins": {
+    "unmarked": "J1-33"
+   }
+  },
+  {
+   "name": "DATA A D5",
+   "dir": "bidir",
+   "pins": {
+    "unmarked": "J1-34"
+   }
+  },
+  {
+   "name": "DATA A D3",
+   "dir": "bidir",
+   "pins": {
+    "unmarked": "J1-35"
+   }
+  },
+  {
+   "name": "DATA A D1",
+   "dir": "bidir",
+   "pins": {
+    "unmarked": "J1-36"
+   }
+  }
+ ],
+ "inserts": [],
  "straps": [],
- "power": [],
- "sources": [
-  "Modules/INPUT-PRE-AMPS/M5200A/MANUALS/1985 - M5200A - 002.pdf"
- ]
+ "conflicts": [],
+ "to_check": []
 }
