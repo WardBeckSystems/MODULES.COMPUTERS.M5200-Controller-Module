@@ -1,6 +1,6 @@
 # M5200 Controller Module · Computers
 
-Ward-Beck Systems M5200, 1985|18. Wiki page: [M5200 on WBSps.ca](https://wardbecksystems.github.io/WBSps.ca/PAGES/M5200.html)
+Ward-Beck Systems M5200, 1985|18. Wiki page: [M5200 on WBSps.ca](https://wardbecksystems.github.io/WBSps.ca/WBSps.ca/Github.WardBeckSystems/MODULES.COMPUTERS.M5200-Controller-Module/)
 
 | Folder | What is in it | Files |
 |---|---|---|

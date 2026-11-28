@@ -1,5 +1,5 @@
 # 1985 - M5200 - CONNECTOR LAYOUT M5200 CONTROLLER MODULE.jpg
-Wiki page: [M5200](../../../../PAGES/M5200.md)
+Wiki page: [M5200](../)
 
 
 - **Year:** 1985 (module estimate (manual_issue))

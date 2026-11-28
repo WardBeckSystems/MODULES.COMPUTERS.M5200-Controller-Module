@@ -1,5 +1,5 @@
 # 1985 - M5200 - B 14-096-02-001 - SA14-096 - DISPLAY ASSEMBLY - SCHEMATIC (2).jpg
-Wiki page: [M5200](../../../../PAGES/M5200.md)
+Wiki page: [M5200](../)
 
 
 - **Year:** 1985 (module estimate (manual_issue))

@@ -1,5 +1,5 @@
 # 19xx - 5200-02-002 - CONTROLLER MODULE SCHEMATIC.jpg
-Wiki page: [M5200](../../../../PAGES/M5200.md)
+Wiki page: [M5200](../)
 
 
 - **Year:** unknown (title block (read by eye))

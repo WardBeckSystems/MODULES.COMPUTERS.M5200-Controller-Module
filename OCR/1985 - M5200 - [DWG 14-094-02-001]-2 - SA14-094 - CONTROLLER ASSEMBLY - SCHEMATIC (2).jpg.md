@@ -1,5 +1,5 @@
 # 1985 - M5200 - B 14-094-02-001-2 - SA14-094 - CONTROLLER ASSEMBLY - SCHEMATIC (2).jpg
-Wiki page: [M5200](../../../../PAGES/M5200.md)
+Wiki page: [M5200](../)
 
 
 - **Year:** 1985 (module estimate (manual_issue))

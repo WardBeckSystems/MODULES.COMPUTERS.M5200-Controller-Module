@@ -1,5 +1,5 @@
 # 1985 - M5200 - B 14-095-06-001 - SA14-095 - INTERFACE ASSEMBLY - COMPONENT LAYOUT.jpg
-Wiki page: [M5200](../../../../PAGES/M5200.md)
+Wiki page: [M5200](../)
 
 
 - **Year:** 1985 (module estimate (manual_issue))

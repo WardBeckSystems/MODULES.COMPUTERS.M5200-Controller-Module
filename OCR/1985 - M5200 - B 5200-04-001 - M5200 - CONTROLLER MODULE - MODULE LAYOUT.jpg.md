@@ -1,5 +1,5 @@
 # 1985 - M5200 - B 5200-04-001 - M5200 - CONTROLLER MODULE - MODULE LAYOUT.jpg
-Wiki page: [M5200](../../../../PAGES/M5200.md)
+Wiki page: [M5200](../)
 
 
 - **Year:** 1985 (module estimate (manual_issue))
