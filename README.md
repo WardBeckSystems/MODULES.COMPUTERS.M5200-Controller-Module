@@ -4,13 +4,11 @@ Ward-Beck Systems M5200, 1985|18. Wiki page: [M5200 on WBSps.ca](https://wardbec
 
 | Folder | What is in it | Files |
 |---|---|---|
-| [SCHEMATICS/](SCHEMATICS/) | electrical drawings: schematics, functional diagrams, component layouts, wiring | 45 |
-| [MECHANICAL/](MECHANICAL/) | front panels, cover plates, metalwork, assemblies; the front panel as vectors | 16 |
-| [PINOUTS/](PINOUTS/) | the RTO-144 connector: connection sheets, connector layouts, rear views | 8 |
-| [MANUALS/](MANUALS/) | manuals, manual pages, price lists, brochures, documents | 41 |
-| [PHOTOS/](PHOTOS/) | photographs of the module | 1 |
-| [SOFTWARE/](SOFTWARE/) | program listings, firmware, the plugin | 1 |
-| [KICAD/](KICAD/) | KiCad schematics traced from the drawings, the symbol, PCB projects | 10 |
+| [SCHEMATICS/](SCHEMATICS/) | electrical drawings: schematics, functional diagrams, component layouts, wiring | 44 |
+| [MECHANICAL/](MECHANICAL/) | front panels, cover plates, metalwork, assemblies; the front panel as vectors | 15 |
+| [PINOUTS/](PINOUTS/) | the RTO-144 connector: connection sheets, connector layouts, rear views | 7 |
+| [MANUALS/](MANUALS/) | manuals, manual pages, price lists, brochures, documents | 40 |
+| [KICAD/](KICAD/) | KiCad schematics traced from the drawings, the symbol, PCB projects | 9 |
 | [OCR/](OCR/) | the note of every file: date, origin, title block, OCR text | 55 |
 
 <!-- module data: tools/module_specs.py, tools/forum_quotes.py -->
@@ -54,20 +52,21 @@ _Mechanical drawings: front panels, cover plates, metalwork and hardware (-03- d
 <tr><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKM01CU0hjNlJidjg/view?resourcekey=0-w2uBG29VsOLIO1nHeggGIA" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKM01CU0hjNlJidjg&resourcekey=0-w2uBG29VsOLIO1nHeggGIA" width="240" alt="1985 - M5200 - B 5200-04-001 - M5200 - CONTROLLER MODULE - MODULE LAYOUT.jpg"></a><br><sub>1985|18 · B 5200-04-001 - M5200 - CONTROLLER MODULE - MODULE LAYOUT · <a href="MECHANICAL/1985%20-%20M5200%20-%20B%205200-04-001%20-%20M5200%20-%20CONTROLLER%20MODULE%20-%20MODULE%20LAYOUT%20(EXTRACTED).svg">vectors</a></sub></td></tr>
 </table>
 
-Not on Google Drive yet: `19xx - 5200-04-002 - CONTROLLER MODULE MODULE LAYOUT (2).jpg`, `19xx - 5200-04-002 - M5200A CONTROLLER MODULE MODULE LAYOUT - ISS 2.jpg`
+## 3-D model
+
+[`MECHANICAL/M5200.stl`](MECHANICAL/M5200.stl) (GitHub turns it in 3-D) · [view, change and generate it on WBSps.ca](https://wardbecksystems.github.io/WBSps.ca/2026/stl.html?m=M5200)
+
+- **Size:** 483 × 44 mm panel, 406 mm deep, 3.2 mm plate (TECHNICAL DATA: 19.00" wide 1.75" high 16.00" deep (483 mm 44 mm 406 mm))
+- **From the drawing:** 6 holes and cut-outs, 0 knobs (front panel: `MECHANICAL/M5200 - front panel.svg`)
+- Made by `tools/module_models.py` (→ `MECHANICAL/M5200.model.json`) and `tools/stl/make_stl.mjs` in [WBSps.ca](https://github.com/WardBeckSystems/WBSps.ca); the site makes the same STL from the same JSON.
 
 ## Schematics
 
 _Electrical drawings: schematics (-02-), functional diagrams (-01-), component layouts (-06-), wiring (-09-), PCB files (.pcb .dsn), and beside each scan its `(EXTRACTED).svg`: the vectors traced from it._
 
 <table>
-<tr><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKWm1IRm1KaWY3Q1E/view?resourcekey=0-r5tVEE6Xo2amYm_hddInSA" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKWm1IRm1KaWY3Q1E&resourcekey=0-r5tVEE6Xo2amYm_hddInSA" width="240" alt="1985 - M5200 - [DWG 14-094-06-001] - CONTROLLER ASSEMBLY COMPONENT LAYOUT.jpg"></a><br><sub>1985|18 · 14-094-06-001 - CONTROLLER ASSEMBLY COMPONENT LAYOUT · <a href="SCHEMATICS/1985%20-%20M5200%20-%20%5BDWG%2014-094-06-001%5D%20-%20CONTROLLER%20ASSEMBLY%20COMPONENT%20LAYOUT%20(EXTRACTED).svg">vectors</a></sub></td><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKSWFQSmZEWk51UUE/view?resourcekey=0-18IaRjIhVKLxhEk0IRIaqQ" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKSWFQSmZEWk51UUE&resourcekey=0-18IaRjIhVKLxhEk0IRIaqQ" width="240" alt="1985 - M5200 - [DWG 14-095-02-001] - INTERFACE ASSEMBLY SCHEMATIC.jpg"></a><br><sub>1985|18 · 14-095-02-001 - INTERFACE ASSEMBLY SCHEMATIC · <a href="SCHEMATICS/1985%20-%20M5200%20-%20%5BDWG%2014-095-02-001%5D%20-%20INTERFACE%20ASSEMBLY%20SCHEMATIC%20(EXTRACTED).svg">vectors</a></sub></td><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKNzR0dVROaVhLSG8/view?resourcekey=0-F15-xq_znntkznRnLAeO_w" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKNzR0dVROaVhLSG8&resourcekey=0-F15-xq_znntkznRnLAeO_w" width="240" alt="1985 - M5200 - [DWG 14-096-06-001] - ASSEMBLY COMPONENT LAYOUT.jpg"></a><br><sub>1985|18 · 14-096-06-001 - ASSEMBLY COMPONENT LAYOUT · <a href="SCHEMATICS/1985%20-%20M5200%20-%20%5BDWG%2014-096-06-001%5D%20-%20ASSEMBLY%20COMPONENT%20LAYOUT%20(EXTRACTED).svg">vectors</a></sub></td></tr>
-<tr><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKenptS0pDNjVzdWc/view?resourcekey=0-oTdLUsxr9cJeqhdvi-7aug" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKenptS0pDNjVzdWc&resourcekey=0-oTdLUsxr9cJeqhdvi-7aug" width="240" alt="1985 - M5200 - [DWG 14-094-02-001]-2 - SA14-094 - CONTROLLER ASSEMBLY - SCHEMATIC (2).jpg"></a><br><sub>1985|18 · B 14-094-02-001-2 - SA14-094 - CONTROLLER ASSEMBLY - SCHEMATIC (2) · <a href="SCHEMATICS/1985%20-%20M5200%20-%20%5BDWG%2014-094-02-001%5D-2%20-%20SA14-094%20-%20CONTROLLER%20ASSEMBLY%20-%20SCHEMATIC%20(2)%20(EXTRACTED).svg">vectors</a></sub></td><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKekVvV01NNmctY1E/view?resourcekey=0-bBlT8hPqqqb8oJ7_sxAq7A" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKekVvV01NNmctY1E&resourcekey=0-bBlT8hPqqqb8oJ7_sxAq7A" width="240" alt="1985 - M5200 - [DWG 14-094-02-001]-2 - SA14-094 - CONTROLLER ASSEMBLY - SCHEMATIC.jpg"></a><br><sub>1985|18 · B 14-094-02-001-2 - SA14-094 - CONTROLLER ASSEMBLY - SCHEMATIC · <a href="SCHEMATICS/1985%20-%20M5200%20-%20%5BDWG%2014-094-02-001%5D-2%20-%20SA14-094%20-%20CONTROLLER%20ASSEMBLY%20-%20SCHEMATIC%20(EXTRACTED).svg">vectors</a></sub></td><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKM1czRFJTcVRLRGc/view?resourcekey=0-cs2k2rSLJHPQIdIvQgF6dw" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKM1czRFJTcVRLRGc&resourcekey=0-cs2k2rSLJHPQIdIvQgF6dw" width="240" alt="1985 - M5200 - [DWG 14-095-06-001] - SA14-095 - INTERFACE ASSEMBLY - COMPONENT LAYOUT.jpg"></a><br><sub>1985|18 · B 14-095-06-001 - SA14-095 - INTERFACE ASSEMBLY - COMPONENT LAYOUT · <a href="SCHEMATICS/1985%20-%20M5200%20-%20%5BDWG%2014-095-06-001%5D%20-%20SA14-095%20-%20INTERFACE%20ASSEMBLY%20-%20COMPONENT%20LAYOUT%20(EXTRACTED).svg">vectors</a></sub></td></tr>
-<tr><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKNnlxTUlNU0oxbG8/view?resourcekey=0-0fQbRZhnl7ZcssyaooOTkg" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKNnlxTUlNU0oxbG8&resourcekey=0-0fQbRZhnl7ZcssyaooOTkg" width="240" alt="1985 - M5200 - [DWG 14-096-02-001] - SA14-096 - DISPLAY ASSEMBLY - SCHEMATIC (2).jpg"></a><br><sub>1985|18 · B 14-096-02-001 - SA14-096 - DISPLAY ASSEMBLY - SCHEMATIC (2) · <a href="SCHEMATICS/1985%20-%20M5200%20-%20%5BDWG%2014-096-02-001%5D%20-%20SA14-096%20-%20DISPLAY%20ASSEMBLY%20-%20SCHEMATIC%20(2)%20(EXTRACTED).svg">vectors</a></sub></td><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKLW5hZFJYREFKUlk/view?resourcekey=0-Qpg-c56WtLRk2NqP1j1T0w" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKLW5hZFJYREFKUlk&resourcekey=0-Qpg-c56WtLRk2NqP1j1T0w" width="240" alt="1985 - M5200 - [DWG 14-096-02-001] - SA14-096 - DISPLAY ASSEMBLY - SCHEMATIC.jpg"></a><br><sub>1985|18 · B 14-096-02-001 - SA14-096 - DISPLAY ASSEMBLY - SCHEMATIC · <a href="SCHEMATICS/1985%20-%20M5200%20-%20%5BDWG%2014-096-02-001%5D%20-%20SA14-096%20-%20DISPLAY%20ASSEMBLY%20-%20SCHEMATIC%20(EXTRACTED).svg">vectors</a></sub></td><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKbnRJWngxTk4zWDA/view?resourcekey=0-8FC_q6J5sy_-mc31EAzFlQ" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKbnRJWngxTk4zWDA&resourcekey=0-8FC_q6J5sy_-mc31EAzFlQ" width="240" alt="1985 - M5200 - B 5200-02-001 - M5200 - CONTROLLER MODULE - SCHEMATIC.jpg"></a><br><sub>1985|18 · B 5200-02-001 - M5200 - CONTROLLER MODULE - SCHEMATIC · <a href="SCHEMATICS/1985%20-%20M5200%20-%20B%205200-02-001%20-%20M5200%20-%20CONTROLLER%20MODULE%20-%20SCHEMATIC%20(EXTRACTED).svg">vectors</a></sub></td></tr>
-<tr><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKU3BXLUZQT1N1bTg/view?resourcekey=0-1kOyve3vHcLHN9tuibhGpQ" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKU3BXLUZQT1N1bTg&resourcekey=0-1kOyve3vHcLHN9tuibhGpQ" width="240" alt="1985 - M5200 - [DWG 14-094-02-001]-1 - SA14-094 - CONTROLLER ASSEMBLY - SCHEMATIC.jpg"></a><br><sub>1985|18 · D 14-094-02-001-1 - SA14-094 - CONTROLLER ASSEMBLY - SCHEMATIC · <a href="SCHEMATICS/1985%20-%20M5200%20-%20%5BDWG%2014-094-02-001%5D-1%20-%20SA14-094%20-%20CONTROLLER%20ASSEMBLY%20-%20SCHEMATIC%20(EXTRACTED).svg">vectors</a></sub></td></tr>
+<tr><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKbnRJWngxTk4zWDA/view?resourcekey=0-8FC_q6J5sy_-mc31EAzFlQ" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKbnRJWngxTk4zWDA&resourcekey=0-8FC_q6J5sy_-mc31EAzFlQ" width="240" alt="1985 - M5200 - B 5200-02-001 - M5200 - CONTROLLER MODULE - SCHEMATIC.jpg"></a><br><sub>1985|18 · B 5200-02-001 - M5200 - CONTROLLER MODULE - SCHEMATIC · <a href="SCHEMATICS/1985%20-%20M5200%20-%20B%205200-02-001%20-%20M5200%20-%20CONTROLLER%20MODULE%20-%20SCHEMATIC%20(EXTRACTED).svg">vectors</a></sub></td></tr>
 </table>
-
-Not on Google Drive yet: `19xx - 5200-02-002 - CONTROLLER MODULE SCHEMATIC.jpg`
 
 ## Pinouts
 
@@ -183,16 +182,15 @@ _Manuals and manual pages, price lists, RTO-144 connection sheets, brochures, ad
 
 _KiCad: a schematic (`.kicad_sch`) traced from each electrical drawing, the module symbol (`.kicad_sym`) and its PCB projects. Traced schematics are the line work only: redraw with symbols over them._
 
-- [1985 - M5200 - [DWG 14-095-02-001] - INTERFACE ASSEMBLY SCHEMATIC.kicad_sch](KICAD/1985%20-%20M5200%20-%20%5BDWG%2014-095-02-001%5D%20-%20INTERFACE%20ASSEMBLY%20SCHEMATIC.kicad_sch)
-- [1985 - M5200 - [DWG 14-094-02-001]-2 - SA14-094 - CONTROLLER ASSEMBLY - SCHEMATIC (2).kicad_sch](KICAD/1985%20-%20M5200%20-%20%5BDWG%2014-094-02-001%5D-2%20-%20SA14-094%20-%20CONTROLLER%20ASSEMBLY%20-%20SCHEMATIC%20(2).kicad_sch)
-- [1985 - M5200 - [DWG 14-094-02-001]-2 - SA14-094 - CONTROLLER ASSEMBLY - SCHEMATIC.kicad_sch](KICAD/1985%20-%20M5200%20-%20%5BDWG%2014-094-02-001%5D-2%20-%20SA14-094%20-%20CONTROLLER%20ASSEMBLY%20-%20SCHEMATIC.kicad_sch)
-- [1985 - M5200 - [DWG 14-096-02-001] - SA14-096 - DISPLAY ASSEMBLY - SCHEMATIC (2).kicad_sch](KICAD/1985%20-%20M5200%20-%20%5BDWG%2014-096-02-001%5D%20-%20SA14-096%20-%20DISPLAY%20ASSEMBLY%20-%20SCHEMATIC%20(2).kicad_sch)
-- [1985 - M5200 - [DWG 14-096-02-001] - SA14-096 - DISPLAY ASSEMBLY - SCHEMATIC.kicad_sch](KICAD/1985%20-%20M5200%20-%20%5BDWG%2014-096-02-001%5D%20-%20SA14-096%20-%20DISPLAY%20ASSEMBLY%20-%20SCHEMATIC.kicad_sch)
 - [1985 - M5200 - B 5200-02-001 - M5200 - CONTROLLER MODULE - SCHEMATIC.kicad_sch](KICAD/1985%20-%20M5200%20-%20B%205200-02-001%20-%20M5200%20-%20CONTROLLER%20MODULE%20-%20SCHEMATIC.kicad_sch)
 - [1985 - M5200 - [DWG 14-094-02-001]-1 - SA14-094 - CONTROLLER ASSEMBLY - SCHEMATIC.kicad_sch](KICAD/1985%20-%20M5200%20-%20%5BDWG%2014-094-02-001%5D-1%20-%20SA14-094%20-%20CONTROLLER%20ASSEMBLY%20-%20SCHEMATIC.kicad_sch)
+- [1985 - M5200 - [DWG 14-094-02-001]-2 - SA14-094 - CONTROLLER ASSEMBLY - SCHEMATIC (2).kicad_sch](KICAD/1985%20-%20M5200%20-%20%5BDWG%2014-094-02-001%5D-2%20-%20SA14-094%20-%20CONTROLLER%20ASSEMBLY%20-%20SCHEMATIC%20(2).kicad_sch)
+- [1985 - M5200 - [DWG 14-094-02-001]-2 - SA14-094 - CONTROLLER ASSEMBLY - SCHEMATIC.kicad_sch](KICAD/1985%20-%20M5200%20-%20%5BDWG%2014-094-02-001%5D-2%20-%20SA14-094%20-%20CONTROLLER%20ASSEMBLY%20-%20SCHEMATIC.kicad_sch)
+- [1985 - M5200 - [DWG 14-095-02-001] - INTERFACE ASSEMBLY SCHEMATIC.kicad_sch](KICAD/1985%20-%20M5200%20-%20%5BDWG%2014-095-02-001%5D%20-%20INTERFACE%20ASSEMBLY%20SCHEMATIC.kicad_sch)
+- [1985 - M5200 - [DWG 14-096-02-001] - SA14-096 - DISPLAY ASSEMBLY - SCHEMATIC (2).kicad_sch](KICAD/1985%20-%20M5200%20-%20%5BDWG%2014-096-02-001%5D%20-%20SA14-096%20-%20DISPLAY%20ASSEMBLY%20-%20SCHEMATIC%20(2).kicad_sch)
+- [1985 - M5200 - [DWG 14-096-02-001] - SA14-096 - DISPLAY ASSEMBLY - SCHEMATIC.kicad_sch](KICAD/1985%20-%20M5200%20-%20%5BDWG%2014-096-02-001%5D%20-%20SA14-096%20-%20DISPLAY%20ASSEMBLY%20-%20SCHEMATIC.kicad_sch)
 - [19xx - 5200-02-002 - CONTROLLER MODULE SCHEMATIC.kicad_sch](KICAD/19xx%20-%205200-02-002%20-%20CONTROLLER%20MODULE%20SCHEMATIC.kicad_sch)
 - [M5200.kicad_sym](KICAD/M5200.kicad_sym)
-- [index.html](KICAD/index.html)
 
 ---
 Archive: Anthony Peter Kuzub · [WBSps.ca](https://WBSps.ca) · [WBSps.Kuzub.com](https://WBSps.Kuzub.com)
